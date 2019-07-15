@@ -18,7 +18,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ارسال'){
-        message.channel.send("#credits"+"<@"+ mymid +">"+"2000")
+        message.channel.send("#credits "+"<@" + myid + ">")
     }
 });
 
@@ -29,7 +29,7 @@ client.on('message', message => {
 });
 
 client.on("ready", () => {
-let channel =     client.channels.get("600416144775577602")
+let channel =     client.channels.get("600436747926503454")
 setInterval(function() {
 channel.send(` السلام عليكم اشرد ولك !!`);
 }, 30)
