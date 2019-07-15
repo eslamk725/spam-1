@@ -18,7 +18,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ارسال'){
-        message.channel.send("#credits "+"<@" + myid + ">")
+        message.channel.send("#credits "+"<@" + myid + ">" 1500)
     }
 });
 
